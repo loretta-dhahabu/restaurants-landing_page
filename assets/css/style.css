@@ -150,5 +150,26 @@ ul> li > a:hover{
 }
 .footer{
     background-image: url("../images/Orange-Images.jpg");
+    display: flex;
+    margin-top: -320px;
 }
+.contact ul{
+    list-style-type: none;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact ul li{
+    list-style: none;
+     padding-inline-end: 5px;
+     margin-left: 0px;
+     margin-top: 30px;
+}
+.contact img{
+    float: left;
+    display: inline;
+    width: 20px;
+}
+
 
