@@ -118,6 +118,16 @@ ul> li > a:hover{
     height: 30px;
     width: 80px;
 }
+.sect-3{
+    background-color: lightgray;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size:contain;
+    align-items: center;
+    justify-content: center; 
+    margin-top: -100px;  
+}
 
 
 
