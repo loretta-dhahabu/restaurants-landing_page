@@ -151,7 +151,7 @@ ul> li > a:hover{
 .footer{
     background-image: url("../images/Orange-Images.jpg");
     display: flex;
-    margin-top: -320px;
+    margin-top: -680px;
 }
 .contact ul{
     list-style-type: none;
@@ -170,6 +170,24 @@ ul> li > a:hover{
     float: left;
     display: inline;
     width: 20px;
+    height: 30vh;
+}
+.row{
+    display: flexbox;
+
+}
+.row > .column{
+     display:inline-block;
+     padding-inline-end: 80px;
+}
+.column ul{
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    float: justify;
+}
+.column li{
+    list-style: none;
 }
 
 
