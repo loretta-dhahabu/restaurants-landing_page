@@ -16,14 +16,13 @@
     display: inline-block;
     text-align: center;
     justify-content: space-between;
-    margin-right: 30px;
 }
-.sect-1 >, .nav_bar > ul{
-    text-decoration: none;
+.nav_bar > ul{
     list-style-type: none;
-    margin-left: 30px;
-    padding: 3px;
-    display: flex;
-    float: right;
-
+    margin-top: 2px;
 } 
+.nav_bar > ul > li{
+     display: inline;
+     padding-inline-end: 20px;
+     text-decoration: none;
+}
