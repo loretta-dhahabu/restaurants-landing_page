@@ -361,7 +361,12 @@ navbar > ul{
 .description > p{
     margin: 20px;
 }
-
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 45px;
+}
 
 
 
