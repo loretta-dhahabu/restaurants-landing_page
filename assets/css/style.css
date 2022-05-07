@@ -317,6 +317,9 @@ navbar > ul{
     margin-left: 45px;
     max-width: 28%;
     background-size: 32%;
+    border: #ccc;
+    border-style: solid;
+    border-radius: 20px;
     
 }
 .details > h2{
@@ -342,7 +345,21 @@ navbar > ul{
     list-style: none;
     padding: 20px;
 }
-.icons > ul > li > #icon{
+.description{
+    margin-top: 30px;
+    width: 28%;
+    background-color: white;
+    margin-left: 45px;
+    border: #ccc;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: left;
+}
+.description > h2{
+    margin: 20px;
+}
+.description > p{
+    margin: 20px;
 }
 
 
