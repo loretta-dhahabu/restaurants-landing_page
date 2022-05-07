@@ -259,20 +259,35 @@ navbar > ul{
 .pg-img img{
     margin-left: 50px;
     position: flex;
-    height: 42vh;
-    width: 28%;
+    height: 50vh;
+    width: 30%;
     float: left;
     margin-top: 30px;
     padding-right: 70px;
 }
 .form{
-    width: 250px;
-    height: 380px;
-    background: linear-gradient(to top, black,black);
+    width: 20%;
+    height: 50vh;
+    background: linear-gradient(to top,white,grey);
     position: absolute;
-    top: -20px;
-    left: 870px;
-
+    top: 170px;
+    left: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+    line-height: 20px;
+    padding: 20px 0 ;
+}
+.form > button{
+    margin-top: 30px;
+    background-color: black;
+    border-top-right-radius: 15px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
