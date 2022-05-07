@@ -1,7 +1,10 @@
 *{
-    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     padding: 0;
     font-family: Poppins,  Actor, Adamina;
+    box-sizing: border-box;
 }
 .sect-1{
     width: 100%;
@@ -151,7 +154,8 @@ ul> li > a:hover{
 .footer{
     background-image: url("../images/Orange-Images.jpg");
     display: flex;
-    margin-top: -620px;
+    margin-top: -650px;
+    margin-bottom: 300px;
 }
 .contact ul{
     list-style-type: none;
@@ -189,5 +193,63 @@ ul> li > a:hover{
 .column li{
     list-style: none;
 }
+.header{
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    background-image: url(../images/Orange-Images.jpg);
+    background-position: cover;
+    width: 100%;
+    font-family: Poppins,Actor,Adamina;
+}
+navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+navbar > ul{
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+    margin-right: -800px;
+}
+.header li{
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.header a{
+       float: right;
+       color: white;
+       padding: 10px;
+}
+.header button{
+    background-color: #FFAC12;
+    color: black;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+    height: 30px;
+    width: 120px;
+}
+.header2{
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 0px;
+    background-image: url(../images/Orange-Images.jpg);
+    height: 15vh;
+}
+.modern{
+    margin-bottom: -15px;
+    margin-left: 50px;
+}
+.price{
+    float: right;   
+    margin-right: 45px; 
+    margin-top: -30px;
+}
+
+
 
 
