@@ -464,6 +464,48 @@ navbar > ul{
     width: 18%;
 }
 
+.footer2{
+    background-image: url("../images/Orange-Images.jpg");
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: -400px;
+}
+.contact ul{
+    list-style-type: none;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact ul li{
+    list-style: none;
+     padding-inline-end: 5px;
+     margin-left: 0px;
+     margin-top: 30px;
+}
+.contact img{
+    float: left;
+    display: inline;
+    width: 20px;
+    height: 30vh;
+}
+.row{
+    display: flexbox;
+
+}
+.row > .column{
+     display:inline-block;
+     padding-inline-end: 80px;
+}
+.column ul{
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    float: justify;
+}
+.column li{
+    list-style: none;
+
 
 
 
