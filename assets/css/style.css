@@ -252,22 +252,22 @@ navbar > ul{
 .services{
     display: absolute;
     background-color: lightgray;
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     
 }
 .pg-img img{
     margin-left: 50px;
     position: flex;
-    height: 50vh;
-    width: 30%;
+    height: 55vh;
+    width: 32%;
     float: left;
     margin-top: 30px;
     padding-right: 70px;
 }
 .form{
     width: 20%;
-    height: 50vh;
+    height: 55vh;
     background: linear-gradient(to top,white,white);
     position: absolute;
     top: 170px;
@@ -288,6 +288,27 @@ navbar > ul{
     height: 40px;
     margin-left: 20px;
     margin-right: 20px;
+}
+.rectangle{
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    background-color: lightgray; 
+    width: 100%;
+}
+.rectangle > ul{
+    display: flex;
+    justify-content: center;
+    margin-left: -890px;   
+}
+.rectangle > ul > li{
+    list-style: none;
+    padding: 10px;
+}
+.rectangle > ul > li >  img{
+    width: 35px;
+    height: 35px;
+
 }
 
 
