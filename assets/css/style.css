@@ -203,6 +203,31 @@ ul> li > a:hover{
 .column li{
     list-style: none;
 }
+.container2{
+    max-width: 100%;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.footer2{
+    background-image: url("../images/Orange-Images.jpg");
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.footer-col{
+    margin-top: -70px;
+    margin-right: -80px;
+    float: right;
+
+}
+
 .header{
     margin: 0;
     padding: 0;
