@@ -1,5 +1,5 @@
 project 2 readme
-# {Application Name}
+# Restaurants Website
 #### {Brief description of application}, {Date of current version}
 #### By **{List of contributors}**
 ## Description
