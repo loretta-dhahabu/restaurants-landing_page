@@ -8,6 +8,11 @@
     font-family: Poppins,  Actor, Adamina;
     box-sizing: border-box;
 }
+@media screen and (max-width: 1000px) {
+    .container{
+      width: 100%; 
+    }
+}
 .sect-1{
     width: 100%;
     background: linear-gradient(to top,grey 50%,grey 50%),url(moving1.png);
@@ -15,6 +20,11 @@
     background-size: cover;
     height: 100vh;
     background-image:url("../images/moving\ 1.png") ;
+}
+@media screen and (max-width: 1000px) {
+    .nav_bar{
+      width: 100%; 
+    }
 }
 .nav_bar{
     width: 1100px;
@@ -55,6 +65,12 @@ ul> li > a:hover{
    font-size: 15px;
    
 }
+.btn1 > button:hover{
+    color:#FAFF00 ;
+    background-color: black;
+    cursor: pointer;
+}
+
 .btn2 > button{
     color: #FAFF00;
     background-color: black; 
@@ -63,6 +79,11 @@ ul> li > a:hover{
     border: none;
     border-radius: 0px;
     font-size: 15px;
+}
+.btn1 > button:hover{
+    color: black ;
+    background-color: #FFAC12;
+    cursor: pointer;
 }
 .content{
     width: 1200px;
@@ -104,6 +125,10 @@ ul> li > a:hover{
        padding-right: 70px;
        margin-left: -35px;
 }
+.content-2 img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    cursor:all-scroll;
+  }
 .words{
     position: flex;
     padding-top: 120px;
@@ -124,6 +149,12 @@ ul> li > a:hover{
     height: 30px;
     width: 80px;
 }
+#btn3:hover{
+    color:black ;
+    background-color: #FFAC12;
+    cursor: pointer;
+}
+
 .sect-3{
     background-color: lightgray;
     height: 150vh;
@@ -152,6 +183,10 @@ ul> li > a:hover{
     background-color: white;
 
 }
+.gallery img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    cursor: grabbing;
+  }
 .descr{
     padding: 5px;
     padding-top: 0px;
@@ -186,6 +221,10 @@ ul> li > a:hover{
     width: 20px;
     height: 30vh;
 }
+.contct img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    cursor: zoom-in;
+  }
 .row{
     display: flexbox;
 
@@ -330,6 +369,12 @@ navbar > ul{
     margin-left: 20px;
     margin-right: 20px;
 }
+.form > button:hover{
+    color:black;
+    background-color: blue;
+    cursor: pointer;
+}
+
 .rectangle{
     justify-content: space-around;
     align-items: center;
@@ -476,6 +521,11 @@ navbar > ul{
     height: 35vh;
     margin-left: -1px;
 }
+.malto1 img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    cursor: wait;
+
+  }
 .malto1 > h3{
     margin-top: 10px;
     text-align: center;
