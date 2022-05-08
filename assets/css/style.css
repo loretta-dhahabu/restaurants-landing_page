@@ -388,6 +388,7 @@ navbar > ul{
 .icons > ul > li{
     list-style: none;
     padding: 20px;
+    font-size: 1vw;
 }
 .description{
     margin-top: 30px;
@@ -398,6 +399,8 @@ navbar > ul{
     border-style: solid;
     border-radius: 20px;
     text-align: left;
+    font-size: 1vw;
+    font-family: poppins;
 }
 .description > h2{
     margin: 20px;
