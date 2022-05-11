@@ -253,9 +253,10 @@ navbar > ul{
    line-height: 10px;
    justify-content: center;
    align-items: center;
-   margin-left: -75px;
+   margin-left: -85px;
    margin-right: -200px;
    font-family: actor;
+   padding: 10px;
    margin-top: -18px;
 }
 .similar{
