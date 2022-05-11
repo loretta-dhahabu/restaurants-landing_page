@@ -213,7 +213,7 @@ navbar > ul{
 }
 #feature{
     margin-top: 30px;
-    width: 31%;
+    width: 33%;
     background-color: white;
     border: #ccc;
     border-style: solid;
@@ -226,14 +226,14 @@ navbar > ul{
     justify-content: center;
     margin-top: -3px;
     margin-left: 45px;
-    width: 30%;
+    width: 32%;
     background-color: white;
     border: #ccc;
     border-style: solid;
     text-align: left;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    height: 25vh;
+    height: 35vh;
 }
 .column1{
  display:inline-block;
@@ -248,11 +248,12 @@ navbar > ul{
    float: justify;
 }
 .column1 li{
-   list-style-type: circle;
+   list-style-type: none;
    font-size: 10px;
    line-height: 10px;
    justify-content: center;
-   margin-left: -25px;
+   align-items: center;
+   margin-left: -75px;
    margin-right: -200px;
    font-family: actor;
    margin-top: -18px;
