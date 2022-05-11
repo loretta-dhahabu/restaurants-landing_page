@@ -146,8 +146,9 @@ ul> li > a:hover{
     border: none;
     border-style: none;
     border-top-right-radius: 10px;
-    height: 30px;
-    width: 80px;
+    height: 50px;
+    width: 120px;
+    text-align:center;
 }
 #btn3:hover{
     color:black ;
